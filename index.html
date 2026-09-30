@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decimal Arithmetic Processor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Decimal Arithmetic Processor</h1>
+    <p class="subtitle">From expression to binary execution &mdash; FLAT &middot; DAA &middot; COA</p>
+  </header>
+
+  <main>
+    <section class="card" id="input-card">
+      <label for="expr">Enter Expression</label>
+      <div class="input-row">
+        <input id="expr" type="text" value="50 + 40 - 20 + 10" autocomplete="off" spellcheck="false">
+        <button id="process" type="button">Process</button>
+      </div>
+    </section>
+
+    <section class="card" id="flat-panel">
+      <h2>FLAT &mdash; Regex Validation</h2>
+      <div class="panel-body"></div>
+    </section>
+
+    <section class="card" id="daa-panel">
+      <h2>DAA &mdash; Divide &amp; Conquer</h2>
+      <div class="panel-body"></div>
+    </section>
+
+    <section class="card" id="coa-panel">
+      <h2>COA &mdash; 8-bit 2's Complement ALU</h2>
+      <div class="panel-body"></div>
+    </section>
+
+    <section class="card" id="result-panel">
+      <h2>Final Result</h2>
+      <div class="panel-body"></div>
+    </section>
+  </main>
+</body>
+</html>
