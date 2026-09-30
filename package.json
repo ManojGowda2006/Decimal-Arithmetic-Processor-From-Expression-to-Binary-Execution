@@ -1,0 +1,10 @@
+{
+  "name": "decimal-arithmetic-processor",
+  "version": "0.1.0",
+  "description": "Validate a decimal expression (FLAT), evaluate it with Divide & Conquer (DAA), and execute it on a simulated 8-bit 2's complement ALU (COA).",
+  "private": true,
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "license": "MIT"
+}
